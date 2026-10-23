@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+
+  <title>Friends Reels</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Supabase library -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div>
+      <h1>Friends Reels</h1>
+      <p>Videos shared with friends</p>
+    </div>
+
+    <button id="logoutBtn" class="small-btn" hidden>
+      Log out
+    </button>
+  </header>
+
+  <!-- Login and signup screen -->
+  <section id="authSection" class="auth-card">
+    <h2 id="authTitle">Welcome!</h2>
+    <p id="authDescription">
+      Log in to watch videos with your friends.
+    </p>
+
+    <form id="authForm">
+      <label for="email">Email address</label>
+      <input
+        id="email"
+        type="email"
+        placeholder="Enter your email"
+        autocomplete="email"
+        required>
+
+      <label for="password">Password</label>
+      <input
+        id="password"
+        type="password"
+        placeholder="At least 6 characters"
+        minlength="6"
+        autocomplete="current-password"
+        required>
+
+      <button id="authSubmit" type="submit">
+        Log in
+      </button>
+
+      <button id="switchAuth" type="button" class="secondary-btn">
+        Create a new account
+      </button>
+    </form>
+
+    <p id="authMessage" class="message" role="status"></p>
+  </section>
+
+  <!-- Main video gallery -->
+  <main id="feed" hidden></main>
+
+  <div id="status" class="status" role="status" hidden></div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
