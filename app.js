@@ -16,7 +16,7 @@ const SUPABASE_KEY = "sb_publishable_Wh5xOf8qi4Cj6GooVCEupQ_LTf0MUmm";
 
 const VIDEOS = [
   {
-    id: "PASTE_FIRST_VIDEO_ID_HERE",
+    id: "13MCKVOWGnmy2zUXOF4bne7bLXFKKS8uZ",
     name: "My First Video"
   },
   {
