@@ -3,7 +3,7 @@
    1. SUPABASE SETTINGS
    ======================================== */
 
-const SUPABASE_URL = "https://supabase.com/dashboard/project/qaobgdkhnozcuckubara";
+const SUPABASE_URL = "https://qaobgdkhnozcuckubara.supabase.co";
 const SUPABASE_KEY = "sb_publishable_Wh5xOf8qi4Cj6GooVCEupQ_LTf0MUmm";
 
 
