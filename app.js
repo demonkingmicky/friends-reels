@@ -20,7 +20,7 @@ const VIDEOS = [
     name: "My First Video"
   },
   {
-    id: "1Uryxgp_HESUM71PFibiEbdHasV_NyBA_",
+    id: "1Uryxgp_HESUM71PFibiEbdHasV_NyBA",
     name: "My Second Video"
   },
   {
