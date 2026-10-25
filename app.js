@@ -24,7 +24,7 @@ const VIDEOS = [
     name: "My Second Video"
   },
   {
-    id: "PASTE_THIRD_VIDEO_ID_HERE",
+    id: "1Gv-wAqfnKNf-b6aZaOlAx8DowRcOqHZd",
     name: "My Third Video"
   }
 ];
